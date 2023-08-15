@@ -6,7 +6,7 @@ import (
 	"time"
 
 
-	"github.com/techieasif/wisdom/internal/models"
+	"github.com/techieasif/go-echo-postgres-micro-service/internal/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"

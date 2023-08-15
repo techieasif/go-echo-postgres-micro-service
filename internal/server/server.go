@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/techieasif/wisdom/internal/database"
-	"github.com/techieasif/wisdom/internal/models"
+	"github.com/techieasif/go-echo-postgres-micro-service/internal/database"
+	"github.com/techieasif/go-echo-postgres-micro-service/internal/models"
 )
 
 type Server interface {

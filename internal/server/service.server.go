@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/techieasif/wisdom/internal/dberrors"
-	"github.com/techieasif/wisdom/internal/models"
+	"github.com/techieasif/go-echo-postgres-micro-service/internal/dberrors"
+	"github.com/techieasif/go-echo-postgres-micro-service/internal/models"
 )
 
 func (s *EchoServer) GetAllServices(ctx echo.Context) error {

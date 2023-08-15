@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/techieasif/wisdom/internal/database"
-	"github.com/techieasif/wisdom/internal/server"
+	"github.com/techieasif/go-echo-postgres-micro-service/internal/database"
+	"github.com/techieasif/go-echo-postgres-micro-service/internal/server"
 )
 
 func main(){

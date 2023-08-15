@@ -5,8 +5,8 @@ import (
 	"errors"
 
 	"github.com/google/uuid"
-	"github.com/techieasif/wisdom/internal/dberrors"
-	"github.com/techieasif/wisdom/internal/models"
+	"github.com/techieasif/go-echo-postgres-micro-service/internal/dberrors"
+	"github.com/techieasif/go-echo-postgres-micro-service/internal/models"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )
